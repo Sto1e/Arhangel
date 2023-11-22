@@ -5,18 +5,27 @@
 #images {
     display: flex;
     flex-direction: row;
-    justify-content: space-around ;
+    justify-content: space-around;
     height: 200px;
 }
 
 .fire {
     max-height: 200px; 
-    min-width: 100px;
     min-height: 100px;
 }
 
 #arhangel {
     opacity: 0.6;
+}
+
+.pics {
+    display: flex;
+    flex-shrink: 2;
+}
+
+.logo {
+    display: flex;
+    flex-shrink: 1;
 }
 
 h1 {
@@ -27,7 +36,7 @@ h1 {
     color: rgb(235, 202, 16);
     opacity: 0.7;
     padding: 0px 20px;
-    margin-top: 90px;
+    margin-bottom: 50px;
 }
 
 a {
@@ -50,7 +59,8 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: -10px;
+    margin-top: 50px;
+    margin-bottom: -20px;
     }
 
     .fa-brands { 
@@ -91,7 +101,7 @@ section {
     }
 
 #bottom-center {
-    margin-top: 40px ;
+    margin-top: 50px ;
 }
 
     
