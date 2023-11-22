@@ -1,17 +1,3 @@
-/* const readMoreBtn = document.querySelector('.read-more-btn');
-const text = document.querySelector('.text');
-
-readMoreBtn = addEventListener('click', (e) => {
-    text.classList.toggle('show-more');
-    if (readMoreBtn.innerHTML === 'Читај Повеќе'){
-        readMoreBtn.innerHTML = 'Читај Помалку'
-    }
-    else {
-        readMoreBtn.innerHTML = 'Читај Повеќе'
-    }
-} ) */
-
-
 function myFunction() {
     const dots = document.getElementById("dots");
     const moreText = document.getElementById("more");
