@@ -17,6 +17,7 @@
 
 #arhangel {
     opacity: 0.6;
+    flex-shrink: 2;
 }
 
 h1 {
