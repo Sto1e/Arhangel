@@ -14,14 +14,14 @@
     min-width: 5%;
     min-height: 5%;
     display: flex;
-    flex-shrink: 2;
+    flex-shrink: 1;
     padding: 0px 20px;
 }
 
 #arhangel {
     opacity: 0.6;
     display: flex;
-    flex-shrink: 1;
+    flex-shrink: 2;
 }
 
 h1 {
@@ -93,7 +93,7 @@ section {
 
     .bottom {
         margin: 0px;
-        font-size: small;
+        font-size: 12px;
     }
 
 #bottom-center {
