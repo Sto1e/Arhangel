@@ -7,23 +7,19 @@
     flex-direction: row;
     justify-content: space-around;
     height: 200px;
+    min-width: 100px;
 }
 
 .fire {
-    max-height: 200px; 
-    min-height: 100px;
+    min-width: 5%;
+    min-height: 5%;
+    display: flex;
+    flex-shrink: 2;
+    padding: 0px 20px;
 }
 
 #arhangel {
     opacity: 0.6;
-}
-
-.pics {
-    display: flex;
-    flex-shrink: 2;
-}
-
-.logo {
     display: flex;
     flex-shrink: 1;
 }
