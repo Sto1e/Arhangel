@@ -19,14 +19,6 @@
     opacity: 0.6;
 }
 
-.pics {
-    flex-shrink: 1;
-}
-
-.logo {
-    flex-shrink: 0;
-}
-
 h1 {
     display: flex;
     flex-direction: row;
