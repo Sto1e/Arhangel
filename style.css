@@ -10,12 +10,16 @@
 }
 
 .fire {
-    height: 200px; 
-    width: 400px;  
+    max-height: 200px; 
+    max-width: 400px;
+    min-width: 130px;
 }
 
 #arhangel {
     opacity: 0.6;
+    display: flex;
+    min-width: min-content;
+    min-height: min-content;
 }
 
 
