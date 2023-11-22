@@ -13,11 +13,12 @@
     max-height: 200px; 
     min-width: 100px;
     min-height: 100px;
+    flex-shrink: 2;
 }
 
 #arhangel {
     opacity: 0.6;
-    flex-shrink: 2;
+    flex-shrink: 1;
 }
 
 h1 {
