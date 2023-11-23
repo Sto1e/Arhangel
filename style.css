@@ -71,12 +71,21 @@ section {
     }
 
     .fa-brands { 
-        margin: 0px 60px;
+        margin: 0px 80px;
     }
     
     
     .fa-regular { 
-        margin: 0px 60px;
+        margin: 0px 80px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .fa-regular {
+            margin: 0px 30px;
+        }
+        .fa-brands {
+            margin: 0px 30px;
+        }
     }
 
     .center {
@@ -109,7 +118,7 @@ section {
 
     @media only screen and (max-width: 768px) {
         .bottom {
-            font-size: 10px;
+            font-size: 9px;
         }
     }
 
