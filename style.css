@@ -10,18 +10,15 @@
     min-width: 100px;
 }
 
+
+
 .fire {
     min-width: 5%;
     min-height: 5%;
-    display: flex;
-    flex-shrink: 1;
-    padding: 0px 20px;
 }
 
 #arhangel {
     opacity: 0.6;
-    display: flex;
-    flex-shrink: 2;
 }
 
 h1 {
