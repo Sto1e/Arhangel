@@ -13,8 +13,14 @@
 .fire {
     min-width: 5%;
     min-height: 5%;
-    max-width: 100vh;
-    max-width: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .fire {
+        max-width: 15vh;
+        max-height: 15vh; 
+        margin-top: 30px;
+    }
 }
 
 #arhangel {
@@ -90,11 +96,17 @@ section {
 
     .bottom {
         margin: 0px;
-        font-size: 12px;
+        font-size: 16px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .bottom {
+            font-size: 11px;
+        }
     }
 
 #bottom-center {
-    margin-top: 50px ;
+    margin-top: 30px ;
 }
 
     
