@@ -10,11 +10,11 @@
     min-width: 100px;
 }
 
-
-
 .fire {
     min-width: 5%;
     min-height: 5%;
+    max-width: 100vh;
+    max-width: 100vh;
 }
 
 #arhangel {
