@@ -29,8 +29,8 @@
 
 @media only screen and (max-width: 768px) {
     #arhangel {
-        max-width: 25vh;
-        max-height: 25vh;
+        width: auto;
+        height: auto;
     }
 }
 
@@ -81,10 +81,10 @@ section {
 
     @media only screen and (max-width: 768px) {
         .fa-regular {
-            margin: 0px 30px;
+            margin: 0px 20px;
         }
         .fa-brands {
-            margin: 0px 30px;
+            margin: 0px 20px;
         }
     }
 
