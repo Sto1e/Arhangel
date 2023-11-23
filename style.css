@@ -29,8 +29,9 @@
 
 @media only screen and (max-width: 768px) {
     #arhangel {
-        width: auto;
-        height: auto;
+        width: 20vh;
+        height: 20vh;
+        margin-top: 10px;
     }
 }
 
